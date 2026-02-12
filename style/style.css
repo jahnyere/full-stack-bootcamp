@@ -96,12 +96,15 @@
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 1rem;
-  border: 1px solid (255, 255, 255, 0);
+  border: 1px solid rgba(255, 255, 255, 0);
   background-position: center;
 }
 
 .hero-description{
-  width: 600px;
+  position: absolute;
+  top: 360px;
+  left: 64px;
+  width:600px;
   background-color: #fff;
   border-radius: 0.5rem;
   box-shadow: 0 12px 24px -6px rgba(24, 26, 42, 0.12), inset 0 0 0 1px #e8e8ea;
@@ -133,7 +136,7 @@
   color: var(--heading-font-color);
 }
 
-author-section{
+.author-section{
   display: flex;
   align-items: center;
   column-gap: 20px;
@@ -149,4 +152,8 @@ author-section{
 .author-section img{
   width: 48px;
   height: auto;
+}
+
+.hero-section{
+  position: relative;
 }
