@@ -157,3 +157,56 @@
 .hero-section{
   position: relative;
 }
+
+/*blogs section*/
+
+.blogs-section{
+  margin-top: 10rem;;
+}
+
+.blogs-section h1{
+  font-size: 1.5rem;
+  font-weight: 1.2;
+  font-weight: 700;
+}
+
+.posts{
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.single-post{
+  flex-basis: 32%;
+  padding: 16px;
+  border: 11px solid #e8e8ea;
+  border-radius: .75rem;
+}
+
+.single-post img{
+  width:100%;
+  border-radius: .6rem;
+}
+
+.single-post .article-details{
+  padding: 24px 8px;
+}
+
+.single-post h2 a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #181a2a;
+}
+
+.single-post .hero-badge{
+  background-color: rgba(75, 107, 251, .05);
+  color:var(--primary-color);
+}
+
+.single-post .author-section img{
+  width: 36px;
+  height: auto;
+}

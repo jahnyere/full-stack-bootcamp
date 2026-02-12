@@ -22,3 +22,19 @@
   position:static;
 
 }
+
+.hero-description h1 a{
+  font-size:1.5rem;
+  line-height: 1.2;
+
+}
+
+.blogs-section{
+  margin-top: 16rem;
+}
+
+
+.single-post{
+  width:100%;
+  flex-basis: 100%;
+}
